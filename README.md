@@ -25,6 +25,18 @@ formManager : on port 8082 (Springboot)
 live demo:
 https://drive.google.com/file/d/1hWi5n5PTA5A2Kwcc3HJSYqNapp9Ux9g6/view?usp=sharing
 
+PS: as you can see the communication using traditional REST protocal is
+  1. complicated ( code wise) .
+  2. errors can't be investigated & fixed easily 
+  3. security threat due to communication format being general ( no constraints on requests made)
+  
+  Solution:
+  use a protocal like "gRPC" which integrates natively with our orchestrator service ( making our app look & feel monolith)
+  
+  
+
+
+
 Group :
 Khalil Ben Abdallah
 Youssef Smeoui
