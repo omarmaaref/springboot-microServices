@@ -7,7 +7,7 @@ uml:
 i'm providing 2 microservices :
 
 orchestrator : on port 8081 (Springboot)
-( to simplefy running the program :client loan request input is done via a get request )
+( to simplefy running the program :loan request is done via a Get request )
 controller:
 ![image](https://user-images.githubusercontent.com/64233476/236585984-28052033-e8a9-47e6-a699-c9d01187635d.png)
 service:
@@ -18,7 +18,7 @@ communication with form manager server is done by HTTP calls:
 ![image](https://user-images.githubusercontent.com/64233476/236586252-811421e4-3d0f-464f-89b4-849f5c1dfff6.png)
 
 
-formManager : on port 8081 (Springboot)
+formManager : on port 8082 (Springboot)
 ![image](https://user-images.githubusercontent.com/64233476/236585861-e5ced3b0-8891-40a5-b149-eadfd00082ab.png)
 
 
